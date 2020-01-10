@@ -20,7 +20,7 @@ public class SimpleAttach : MonoBehaviour {
         hand.HideGrabHint();
     }
 
-    void OnHandHoverUpdate(Hand hand) {
+    void HandHoverUpdate(Hand hand) {
         GrabTypes grabType = hand.GetGrabStarting();
         bool isGrabEnding = hand.IsGrabEnding(gameObject);
 
@@ -28,6 +28,7 @@ public class SimpleAttach : MonoBehaviour {
         if (interactable.attachedToHand == null && grabType != GrabTypes.None) {
             hand.AttachObject(gameObject, grabType);
             hand.HoverLock(interactable);
+            hand.HideGrabHint();
         }
         // Release
         else if(isGrabEnding) {
