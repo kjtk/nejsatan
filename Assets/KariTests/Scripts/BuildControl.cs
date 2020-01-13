@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class BuildControl : MonoBehaviour
 {
+    public List<GameObject> PartList = new List<GameObject>();
+
     // Start is called before the first frame update
     void Start()
     {
