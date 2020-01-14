@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PartControl : MonoBehaviour {
 
-    public bool MasterPlank;
+    public bool MasterPart;
 
     //public void SnapPointCollisionDetected(SnapControl childScript) {
         //Debug.Log("Snap point collided");
