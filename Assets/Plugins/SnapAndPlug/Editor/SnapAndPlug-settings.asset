@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1970725543, guid: 1b1304245bb234b38b64bca4dd86b186, type: 3}
+  m_Name: SnapAndPlug-settings
+  m_EditorClassIdentifier: 
+  lastLoadedVersion:
+    major: 2
+    minor: 3
+    patch: 3
+  loadedSettingsFileLocation: Plugins/SnapAndPlug/Editor/SnapAndPlug-settings.asset
+  EditorFixUndoByAutoDisconnectingMovesFromGroups: 1
+  showEditorDebugMessages: 1
