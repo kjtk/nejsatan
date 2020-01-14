@@ -20,7 +20,8 @@ public class SnapControl : MonoBehaviour
         if(other.transform.parent.GetComponent<PartControl>().MasterPart) {
 
             // Disable gravity from parent part
-            //this.transform.parent.GetComponent<Rigidbody>().useGravity = false;
+            this.transform.parent.GetComponent<Rigidbody>().useGravity = false;
+            this.transform.parent.GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
 
             Debug.Log(posThisParent);
             Debug.Log(other.transform.parent.name + " is master.");
@@ -40,6 +41,7 @@ public class SnapControl : MonoBehaviour
 
             this.transform.parent.position = other.transform.position + (this.transform.parent.position - this.transform.position);
 
+            this.transform.parent.GetComponent<Rigidbody>().useGravity = true;
 
         }
 
