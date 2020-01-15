@@ -45,7 +45,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   socketConnectedTo: {fileID: 0}
   editor_GizmoColour: {r: 0, g: 1, b: 1, a: 1}
-  sharedJoint: {fileID: 11400000, guid: 1aa98c73b4ae74ce1aa89a050faed02d, type: 2}
+  sharedJoint: {fileID: 11400000, guid: e49a84233211c4408a896237e21ace58, type: 2}
   componentsAddedToParentPieceByJoint: []
 --- !u!1 &6299665935834739305
 GameObject:
@@ -376,7 +376,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   socketConnectedTo: {fileID: 0}
   editor_GizmoColour: {r: 0.1, g: 0.5, b: 1, a: 1}
-  sharedJoint: {fileID: 11400000, guid: 1aa98c73b4ae74ce1aa89a050faed02d, type: 2}
+  sharedJoint: {fileID: 11400000, guid: e49a84233211c4408a896237e21ace58, type: 2}
   componentsAddedToParentPieceByJoint: []
 --- !u!1001 &381382234006870459
 PrefabInstance:
