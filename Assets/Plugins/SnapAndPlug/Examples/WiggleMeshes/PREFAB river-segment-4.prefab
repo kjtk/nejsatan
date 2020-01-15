@@ -1,0 +1,236 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &130278
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 453724}
+  - component: {fileID: 3304100}
+  - component: {fileID: 2394334}
+  - component: {fileID: 11414550}
+  - component: {fileID: 6556676}
+  m_Layer: 0
+  m_Name: PREFAB river-segment-4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &453724
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 130278}
+  m_LocalRotation: {x: -0.6780323, y: 0.20067994, z: 0.20067978, w: 0.6780321}
+  m_LocalPosition: {x: 5.647602, y: -0.0024909973, z: -23.211887}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_Children:
+  - {fileID: 4000011819474024}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90, y: 32.9748, z: 0}
+--- !u!33 &3304100
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 130278}
+  m_Mesh: {fileID: 4300000, guid: dd069b2f39ed9444e8bd549e94058bf9, type: 3}
+--- !u!23 &2394334
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 130278}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 66cdc4767392d43d58bc934acc00d12b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &11414550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 130278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1276179121, guid: 9dfd8e3666f1d4059a3203c26f4d826c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  editor_ScaleSockets: 1
+  editor_showBackfacingSockets: 1
+--- !u!65 &6556676
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 130278}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.050908014, y: 0.11594895, z: 0.013865923}
+  m_Center: {x: 0.0149533115, y: 0.0043541426, z: -0.0021301617}
+--- !u!1 &155004
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 456794}
+  - component: {fileID: 11455448}
+  m_Layer: 0
+  m_Name: Socket-1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &456794
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155004}
+  m_LocalRotation: {x: 0.6299868, y: -0.32111788, z: -0.3211179, w: 0.62998676}
+  m_LocalPosition: {x: 0.0015999996, y: -0.0413, z: -0.005299997}
+  m_LocalScale: {x: 0.01, y: 0.0100000035, z: 0.0100000035}
+  m_Children: []
+  m_Father: {fileID: 4000011819474024}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 35.982098, y: -90, z: -90}
+--- !u!114 &11455448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 696524022, guid: 9dfd8e3666f1d4059a3203c26f4d826c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  socketConnectedTo: {fileID: 0}
+  editor_GizmoColour: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  sharedJoint: {fileID: 11400000, guid: 1aa98c73b4ae74ce1aa89a050faed02d, type: 2}
+  componentsAddedToParentPieceByJoint: []
+--- !u!1 &156460
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 419426}
+  - component: {fileID: 11448290}
+  m_Layer: 0
+  m_Name: Socket-2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &419426
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156460}
+  m_LocalRotation: {x: 0.47682312, y: -0.52214915, z: -0.52214926, w: 0.476823}
+  m_LocalPosition: {x: -0.009099994, y: 0.046900015, z: -0.0053999973}
+  m_LocalScale: {x: 0.010000003, y: 0.010000003, z: 0.010000004}
+  m_Children: []
+  m_Father: {fileID: 4000011819474024}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -5.1958, y: -90, z: -90}
+--- !u!114 &11448290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 696524022, guid: 9dfd8e3666f1d4059a3203c26f4d826c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  socketConnectedTo: {fileID: 0}
+  editor_GizmoColour: {r: 0.1, g: 0.5, b: 1, a: 1}
+  sharedJoint: {fileID: 11400000, guid: 1aa98c73b4ae74ce1aa89a050faed02d, type: 2}
+  componentsAddedToParentPieceByJoint: []
+--- !u!1 &1000010766203180
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4000011819474024}
+  m_Layer: 0
+  m_Name: Sockets
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000011819474024
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000010766203180}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 456794}
+  - {fileID: 419426}
+  m_Father: {fileID: 453724}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
