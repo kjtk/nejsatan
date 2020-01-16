@@ -16,8 +16,8 @@ public class SnapControl : MonoBehaviour
         // Simple check for target and source (object that will be attached)
         // Which one is moving (both could be moving though...)
         // This "works" for one pair of objects...
-        //if(other.transform.parent.GetComponent<Rigidbody>().velocity != Vector3.zero) {
-        if(other.transform.parent.GetComponent<PartControl>().MasterPart) {
+        if(other.transform.parent.GetComponent<Rigidbody>().velocity != Vector3.zero) {
+        //if(other.transform.parent.GetComponent<PartControl>().MasterPart) {
 
             // Disable gravity from parent part
             this.transform.parent.GetComponent<Rigidbody>().useGravity = false;
