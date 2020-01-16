@@ -17,14 +17,22 @@ public class BuildControl : MonoBehaviour {
                     legacy default behaviour, but most games want the opposite: dragging a 
                     SnapPiece drags the whole group.
 */
-    public Material m;
-    public DragDropSnapMode dragDropSnapMode;
-    public float maxSnapDist;
-    public bool unGroupOnDrag;
+    //public Material m;
+    //public DragDropSnapMode dragDropSnapMode;
+    //public float maxSnapDist;
+    //public bool unGroupOnDrag;
+
+    public AudioSource attachSound;
+
+    public void playAttachSound() {
+        attachSound = GetComponent<AudioSource>();
+        attachSound.Play(0);
+        Debug.Log("Attac audio played.");
+    }
 
     void Start() {
 
-        var myBuildAction3D = new DragDropAction3D(m, dragDropSnapMode, maxSnapDist, unGroupOnDrag);
+        //var myBuildAction3D = new DragDropAction3D(m, dragDropSnapMode, maxSnapDist, unGroupOnDrag);
 
     }
 
