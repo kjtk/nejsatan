@@ -310,7 +310,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fb01706656c9d444887309411a4ce9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  draggingRemovesFromGroup: 0
+  draggingRemovesFromGroup: 1
   materialForPreviewGhosts: {fileID: 2100000, guid: e8824cfb3bb3410438c5042344b7d92c,
     type: 2}
   materialForHilightingMesh: {fileID: 2100000, guid: 6360709fe84b22948ad4f78bee061df1,
@@ -702,7 +702,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fb01706656c9d444887309411a4ce9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  draggingRemovesFromGroup: 0
+  draggingRemovesFromGroup: 1
   materialForPreviewGhosts: {fileID: 2100000, guid: e8824cfb3bb3410438c5042344b7d92c,
     type: 2}
   materialForHilightingMesh: {fileID: 2100000, guid: 6360709fe84b22948ad4f78bee061df1,
@@ -953,7 +953,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fb01706656c9d444887309411a4ce9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  draggingRemovesFromGroup: 0
+  draggingRemovesFromGroup: 1
   materialForPreviewGhosts: {fileID: 2100000, guid: e8824cfb3bb3410438c5042344b7d92c,
     type: 2}
   materialForHilightingMesh: {fileID: 2100000, guid: 6360709fe84b22948ad4f78bee061df1,
@@ -1239,7 +1239,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fb01706656c9d444887309411a4ce9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  draggingRemovesFromGroup: 0
+  draggingRemovesFromGroup: 1
   materialForPreviewGhosts: {fileID: 2100000, guid: e8824cfb3bb3410438c5042344b7d92c,
     type: 2}
   materialForHilightingMesh: {fileID: 2100000, guid: 6360709fe84b22948ad4f78bee061df1,
@@ -1490,7 +1490,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fb01706656c9d444887309411a4ce9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  draggingRemovesFromGroup: 0
+  draggingRemovesFromGroup: 1
   materialForPreviewGhosts: {fileID: 2100000, guid: e8824cfb3bb3410438c5042344b7d92c,
     type: 2}
   materialForHilightingMesh: {fileID: 2100000, guid: 6360709fe84b22948ad4f78bee061df1,
@@ -1775,7 +1775,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fb01706656c9d444887309411a4ce9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  draggingRemovesFromGroup: 0
+  draggingRemovesFromGroup: 1
   materialForPreviewGhosts: {fileID: 2100000, guid: e8824cfb3bb3410438c5042344b7d92c,
     type: 2}
   materialForHilightingMesh: {fileID: 2100000, guid: 6360709fe84b22948ad4f78bee061df1,
@@ -2041,7 +2041,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fb01706656c9d444887309411a4ce9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  draggingRemovesFromGroup: 0
+  draggingRemovesFromGroup: 1
   materialForPreviewGhosts: {fileID: 2100000, guid: e8824cfb3bb3410438c5042344b7d92c,
     type: 2}
   materialForHilightingMesh: {fileID: 2100000, guid: 6360709fe84b22948ad4f78bee061df1,
@@ -2356,7 +2356,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fb01706656c9d444887309411a4ce9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  draggingRemovesFromGroup: 0
+  draggingRemovesFromGroup: 1
   materialForPreviewGhosts: {fileID: 2100000, guid: e8824cfb3bb3410438c5042344b7d92c,
     type: 2}
   materialForHilightingMesh: {fileID: 2100000, guid: 6360709fe84b22948ad4f78bee061df1,
@@ -2686,7 +2686,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fb01706656c9d444887309411a4ce9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  draggingRemovesFromGroup: 0
+  draggingRemovesFromGroup: 1
   materialForPreviewGhosts: {fileID: 2100000, guid: e8824cfb3bb3410438c5042344b7d92c,
     type: 2}
   materialForHilightingMesh: {fileID: 2100000, guid: 6360709fe84b22948ad4f78bee061df1,
@@ -2967,7 +2967,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fb01706656c9d444887309411a4ce9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  draggingRemovesFromGroup: 0
+  draggingRemovesFromGroup: 1
   materialForPreviewGhosts: {fileID: 2100000, guid: e8824cfb3bb3410438c5042344b7d92c,
     type: 2}
   materialForHilightingMesh: {fileID: 2100000, guid: 6360709fe84b22948ad4f78bee061df1,
@@ -3218,7 +3218,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fb01706656c9d444887309411a4ce9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  draggingRemovesFromGroup: 0
+  draggingRemovesFromGroup: 1
   materialForPreviewGhosts: {fileID: 2100000, guid: e8824cfb3bb3410438c5042344b7d92c,
     type: 2}
   materialForHilightingMesh: {fileID: 2100000, guid: 6360709fe84b22948ad4f78bee061df1,
@@ -3469,7 +3469,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fb01706656c9d444887309411a4ce9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  draggingRemovesFromGroup: 0
+  draggingRemovesFromGroup: 1
   materialForPreviewGhosts: {fileID: 2100000, guid: e8824cfb3bb3410438c5042344b7d92c,
     type: 2}
   materialForHilightingMesh: {fileID: 2100000, guid: 6360709fe84b22948ad4f78bee061df1,
@@ -3946,7 +3946,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fb01706656c9d444887309411a4ce9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  draggingRemovesFromGroup: 0
+  draggingRemovesFromGroup: 1
   materialForPreviewGhosts: {fileID: 2100000, guid: e8824cfb3bb3410438c5042344b7d92c,
     type: 2}
   materialForHilightingMesh: {fileID: 2100000, guid: 6360709fe84b22948ad4f78bee061df1,
@@ -4295,7 +4295,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fb01706656c9d444887309411a4ce9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  draggingRemovesFromGroup: 0
+  draggingRemovesFromGroup: 1
   materialForPreviewGhosts: {fileID: 2100000, guid: e8824cfb3bb3410438c5042344b7d92c,
     type: 2}
   materialForHilightingMesh: {fileID: 2100000, guid: 6360709fe84b22948ad4f78bee061df1,
@@ -4612,7 +4612,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fb01706656c9d444887309411a4ce9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  draggingRemovesFromGroup: 0
+  draggingRemovesFromGroup: 1
   materialForPreviewGhosts: {fileID: 2100000, guid: e8824cfb3bb3410438c5042344b7d92c,
     type: 2}
   materialForHilightingMesh: {fileID: 2100000, guid: 6360709fe84b22948ad4f78bee061df1,
@@ -4896,7 +4896,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fb01706656c9d444887309411a4ce9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  draggingRemovesFromGroup: 0
+  draggingRemovesFromGroup: 1
   materialForPreviewGhosts: {fileID: 2100000, guid: e8824cfb3bb3410438c5042344b7d92c,
     type: 2}
   materialForHilightingMesh: {fileID: 2100000, guid: 6360709fe84b22948ad4f78bee061df1,
@@ -5147,7 +5147,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fb01706656c9d444887309411a4ce9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  draggingRemovesFromGroup: 0
+  draggingRemovesFromGroup: 1
   materialForPreviewGhosts: {fileID: 2100000, guid: e8824cfb3bb3410438c5042344b7d92c,
     type: 2}
   materialForHilightingMesh: {fileID: 2100000, guid: 6360709fe84b22948ad4f78bee061df1,
@@ -5398,7 +5398,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fb01706656c9d444887309411a4ce9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  draggingRemovesFromGroup: 0
+  draggingRemovesFromGroup: 1
   materialForPreviewGhosts: {fileID: 2100000, guid: e8824cfb3bb3410438c5042344b7d92c,
     type: 2}
   materialForHilightingMesh: {fileID: 2100000, guid: 6360709fe84b22948ad4f78bee061df1,
@@ -5965,7 +5965,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   socketConnectedTo: {fileID: 0}
   editor_GizmoColour: {r: 0.1, g: 0.5, b: 1, a: 1}
-  sharedJoint: {fileID: 11400000, guid: b89a62f0ed2144c03a428aa24bef73d0, type: 2}
+  sharedJoint: {fileID: 11400000, guid: e49a84233211c4408a896237e21ace58, type: 2}
   componentsAddedToParentPieceByJoint: []
 --- !u!1 &9068264455978797256
 GameObject:
