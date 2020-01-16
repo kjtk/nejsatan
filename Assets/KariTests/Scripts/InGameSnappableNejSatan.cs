@@ -17,7 +17,7 @@ public class InGameSnappableNejSatan : MonoBehaviour, IDragActionSource
 	{
 		//e.g. 3D world snap: return new DragDropBlockAction3D( materialForPreviewGhosts, DragDropSnapMode.METERS_3D, 1f );
 		//e.g. 2D screen snap: return new DragDropBlockAction3D( materialForPreviewGhosts, DragDropSnapMode.PIXELS_2D, 15f );
-		return new DragDropAction3DWithGhost( materialForPreviewGhosts, DragDropSnapMode.METERS_3D, 1f, draggingRemovesFromGroup );
+		return new DragDropAction3DWithGhost( materialForPreviewGhosts, DragDropSnapMode.METERS_3D, 0.1f, draggingRemovesFromGroup );
 	}
 
 	public Material materialForPreviewGhosts;
