@@ -7,6 +7,7 @@ public class Pouring : MonoBehaviour
 {
     public float angle = 90;
     public FlexSourceActor spawn;
+    public AudioSource pouringsound;
 
     // Start is called before the first frame update
     void Start()
@@ -16,9 +17,14 @@ public class Pouring : MonoBehaviour
 
     void Update() {
         if (Vector3.Angle(Vector3.up, transform.forward) > angle) {
+            if (spawn.isActive == false) {
+                pouringsound.Play();
+            }
             spawn.isActive = true;
+            
         } else {
             spawn.isActive = false;
+            pouringsound.Stop();
         }
     }
 }

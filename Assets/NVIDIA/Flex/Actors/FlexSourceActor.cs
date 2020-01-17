@@ -35,39 +35,34 @@ namespace NVIDIA.Flex
     [ExecuteInEditMode]
     [DisallowMultipleComponent]
     [AddComponentMenu("NVIDIA/Flex/Flex Source Actor")]
-    public class FlexSourceActor : FlexActor
-    {
+    public class FlexSourceActor : FlexActor {
         #region Properties
 
-        public new FlexSourceAsset asset
-        {
+        public new FlexSourceAsset asset {
             get { return m_asset; }
             set { m_asset = value; }
         }
 
-        public float lifeTime
-        {
+        public float lifeTime {
             get { return m_lifeTime; }
             set { m_lifeTime = value; }
         }
 
-        public float[] ages
-        {
+        public float[] ages {
             get { return m_ages; }
         }
 
-        public float startSpeed
-        {
+        public float startSpeed {
             get { return m_startSpeed; }
             set { m_startSpeed = value; }
         }
 
-        public bool isActive
-        {
+        public bool isActive {
             get { return m_isActive; }
             set { m_isActive = value; }
         }
 
+    
         #endregion
 
         #region Messages
