@@ -345,7 +345,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 428928, guid: 73ac470d3d909d645a6c89a4664b6849, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 428928, guid: 73ac470d3d909d645a6c89a4664b6849, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -609,7 +609,7 @@ Transform:
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &660918720
 Rigidbody:
@@ -753,7 +753,7 @@ Transform:
   m_LocalScale: {x: 20, y: 2, z: 20}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &872538687
 GameObject:
@@ -787,7 +787,7 @@ Transform:
   - {fileID: 918665146}
   - {fileID: 32716353}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &901744723
 GameObject:
@@ -1001,7 +1001,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90.00001}
 --- !u!1001 &980891892
 PrefabInstance:
@@ -1044,7 +1044,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 428928, guid: 73ac470d3d909d645a6c89a4664b6849, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 428928, guid: 73ac470d3d909d645a6c89a4664b6849, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1114,7 +1114,7 @@ PrefabInstance:
     - target: {fileID: 2477100866349641383, guid: 5a25e676307884142a9caa79b4826d8f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2477100866349641383, guid: 5a25e676307884142a9caa79b4826d8f,
         type: 3}
@@ -1285,7 +1285,7 @@ Transform:
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1106816181
 Rigidbody:
@@ -1386,7 +1386,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1187011219
 GameObject:
@@ -1418,7 +1418,7 @@ Transform:
   - {fileID: 1926903947}
   - {fileID: 306576385}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1191951041
 GameObject:
@@ -1635,8 +1635,126 @@ Transform:
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1231694539 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2477100866349457119, guid: 5a25e676307884142a9caa79b4826d8f,
+    type: 3}
+  m_PrefabInstance: {fileID: 990607116}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1231694540
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1231694539}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 72e1602396552bd4c839f9272a11b779, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &1231694541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1231694539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 388c889d55d70b6478ac1cbebdd90f3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attachSound: {fileID: 1231694540}
+  OnAttachPlaySound:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1233939980
 GameObject:
   m_ObjectHideFlags: 0
@@ -1742,7 +1860,7 @@ Transform:
   m_LocalScale: {x: 3, y: 2, z: 3}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1245273426
 PrefabInstance:
@@ -1785,7 +1903,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 475244, guid: 7a135b1a2cb9c8f488d4dd00c55ab283, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 475244, guid: 7a135b1a2cb9c8f488d4dd00c55ab283, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1846,7 +1964,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 428928, guid: 73ac470d3d909d645a6c89a4664b6849, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 428928, guid: 73ac470d3d909d645a6c89a4664b6849, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1866,75 +1984,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73ac470d3d909d645a6c89a4664b6849, type: 3}
---- !u!1001 &1267056384
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 5067929031349898368, guid: 6066892588b0d504f9cedab1b0c4d11a,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.2741338
-      objectReference: {fileID: 0}
-    - target: {fileID: 5067929031349898368, guid: 6066892588b0d504f9cedab1b0c4d11a,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.242
-      objectReference: {fileID: 0}
-    - target: {fileID: 5067929031349898368, guid: 6066892588b0d504f9cedab1b0c4d11a,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1.82
-      objectReference: {fileID: 0}
-    - target: {fileID: 5067929031349898368, guid: 6066892588b0d504f9cedab1b0c4d11a,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 5067929031349898368, guid: 6066892588b0d504f9cedab1b0c4d11a,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5067929031349898368, guid: 6066892588b0d504f9cedab1b0c4d11a,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5067929031349898368, guid: 6066892588b0d504f9cedab1b0c4d11a,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 5067929031349898368, guid: 6066892588b0d504f9cedab1b0c4d11a,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5067929031349898368, guid: 6066892588b0d504f9cedab1b0c4d11a,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -90.00001
-      objectReference: {fileID: 0}
-    - target: {fileID: 5067929031349898368, guid: 6066892588b0d504f9cedab1b0c4d11a,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5067929031349898368, guid: 6066892588b0d504f9cedab1b0c4d11a,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8074882950091964051, guid: 6066892588b0d504f9cedab1b0c4d11a,
-        type: 3}
-      propertyPath: m_Name
-      value: Viinipullo
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 6066892588b0d504f9cedab1b0c4d11a, type: 3}
 --- !u!1 &1322903619
 GameObject:
   m_ObjectHideFlags: 0
@@ -2026,7 +2075,7 @@ Transform:
   m_LocalScale: {x: 6, y: 0.01, z: 6}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1322903624
 MonoBehaviour:
@@ -2139,7 +2188,7 @@ PrefabInstance:
     - target: {fileID: 8244715602988862420, guid: f72b008cf3db2d64e84f20a78979e1fe,
         type: 3}
       propertyPath: m_RootOrder
-      value: 29
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 8244715602988862420, guid: f72b008cf3db2d64e84f20a78979e1fe,
         type: 3}
@@ -2248,7 +2297,7 @@ Transform:
   m_LocalScale: {x: 2.99, y: 1.99, z: 2.99}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1351177558
 GameObject:
@@ -2355,7 +2404,7 @@ Transform:
   m_LocalScale: {x: 4.73742, y: 0.01, z: 3.2709954}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1373201819
 PrefabInstance:
@@ -2454,7 +2503,7 @@ PrefabInstance:
     - target: {fileID: 8244715602988862420, guid: f72b008cf3db2d64e84f20a78979e1fe,
         type: 3}
       propertyPath: m_RootOrder
-      value: 30
+      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: 8244715602988862420, guid: f72b008cf3db2d64e84f20a78979e1fe,
         type: 3}
@@ -2473,6 +2522,97 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f72b008cf3db2d64e84f20a78979e1fe, type: 3}
+--- !u!1 &1541067471
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1541067473}
+  - component: {fileID: 1541067472}
+  m_Layer: 0
+  m_Name: Directional Light (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &1541067472
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541067471}
+  m_Enabled: 1
+  serializedVersion: 9
+  m_Type: 1
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 0.9
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &1541067473
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541067471}
+  m_LocalRotation: {x: 0.9054666, y: -0.12265567, z: 0.16626516, w: 0.37073126}
+  m_LocalPosition: {x: -3.16, y: 5.07, z: 7.11}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 45.411003, y: -197.41899, z: -171.906}
 --- !u!1 &1542872552
 GameObject:
   m_ObjectHideFlags: 0
@@ -2501,7 +2641,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1643903384
 GameObject:
@@ -2593,7 +2733,7 @@ Transform:
   m_LocalScale: {x: 4.690046, y: 0.0099, z: 3.2382855}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1676348665
 PrefabInstance:
@@ -2615,6 +2755,11 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 1425766510379866409, guid: e05ea131ce809e8429cbf43f34cfdf38,
         type: 3}
+      propertyPath: onPickUp.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425766510379866409, guid: e05ea131ce809e8429cbf43f34cfdf38,
+        type: 3}
       propertyPath: attachmentOffset
       value: 
       objectReference: {fileID: 316691643}
@@ -2628,6 +2773,22 @@ PrefabInstance:
       propertyPath: releaseVelocityStyle
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1425766510379866409, guid: e05ea131ce809e8429cbf43f34cfdf38,
+        type: 3}
+      propertyPath: onPickUp.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425766510379866409, guid: e05ea131ce809e8429cbf43f34cfdf38,
+        type: 3}
+      propertyPath: onPickUp.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425766510379866409, guid: e05ea131ce809e8429cbf43f34cfdf38,
+        type: 3}
+      propertyPath: onPickUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 11500000, guid: 2fb01706656c9d444887309411a4ce9d,
+        type: 3}
     - target: {fileID: 1862832795572952574, guid: e05ea131ce809e8429cbf43f34cfdf38,
         type: 3}
       propertyPath: m_Layer
@@ -2692,7 +2853,7 @@ PrefabInstance:
     - target: {fileID: 8504492443611065582, guid: e05ea131ce809e8429cbf43f34cfdf38,
         type: 3}
       propertyPath: m_RootOrder
-      value: 28
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 8504492443611065582, guid: e05ea131ce809e8429cbf43f34cfdf38,
         type: 3}
@@ -2711,75 +2872,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e05ea131ce809e8429cbf43f34cfdf38, type: 3}
---- !u!1001 &1715578629
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 5562321881216329023, guid: 8e2c897023ee44040b04f1020e6ac836,
-        type: 3}
-      propertyPath: m_Name
-      value: Tuoli
-      objectReference: {fileID: 0}
-    - target: {fileID: 8892937590842251052, guid: 8e2c897023ee44040b04f1020e6ac836,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.8959818
-      objectReference: {fileID: 0}
-    - target: {fileID: 8892937590842251052, guid: 8e2c897023ee44040b04f1020e6ac836,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.061319515
-      objectReference: {fileID: 0}
-    - target: {fileID: 8892937590842251052, guid: 8e2c897023ee44040b04f1020e6ac836,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 2.3174927
-      objectReference: {fileID: 0}
-    - target: {fileID: 8892937590842251052, guid: 8e2c897023ee44040b04f1020e6ac836,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8892937590842251052, guid: 8e2c897023ee44040b04f1020e6ac836,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8892937590842251052, guid: 8e2c897023ee44040b04f1020e6ac836,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8892937590842251052, guid: 8e2c897023ee44040b04f1020e6ac836,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8892937590842251052, guid: 8e2c897023ee44040b04f1020e6ac836,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8892937590842251052, guid: 8e2c897023ee44040b04f1020e6ac836,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8892937590842251052, guid: 8e2c897023ee44040b04f1020e6ac836,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8892937590842251052, guid: 8e2c897023ee44040b04f1020e6ac836,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 8e2c897023ee44040b04f1020e6ac836, type: 3}
 --- !u!4 &1739440380 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3236529738315330951, guid: f72b008cf3db2d64e84f20a78979e1fe,
@@ -3025,7 +3117,7 @@ Transform:
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1828856291
 MonoBehaviour:
@@ -3340,7 +3432,7 @@ Transform:
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1982368950
 Rigidbody:
@@ -3453,7 +3545,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 428928, guid: 73ac470d3d909d645a6c89a4664b6849, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 428928, guid: 73ac470d3d909d645a6c89a4664b6849, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3504,7 +3596,7 @@ Transform:
   m_LocalScale: {x: 5.94, y: 0.0099, z: 5.94}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &2035289631
 BoxCollider:
@@ -3654,7 +3746,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!23 &8389665131414183
 MeshRenderer:
@@ -3950,7 +4042,7 @@ GameObject:
   - component: {fileID: 2295769896516461503}
   - component: {fileID: 2829435884495815225}
   - component: {fileID: 297255728170099001}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Box012
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4090,7 +4182,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7858306870357289738}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: Sockets
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4114,7 +4206,7 @@ GameObject:
   - component: {fileID: 7065544219779622417}
   - component: {fileID: 3672588450296756422}
   - component: {fileID: 536284204719498211}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Box010
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4626,7 +4718,7 @@ GameObject:
   - component: {fileID: 1808644133363410474}
   - component: {fileID: 1808644133363410475}
   - component: {fileID: 1808644133363410472}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Box017
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4868,7 +4960,7 @@ GameObject:
   - component: {fileID: 1876443949347371544}
   - component: {fileID: 6299537774682252905}
   - component: {fileID: 2048140788480158497}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Box007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4938,7 +5030,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2898163478304671920}
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0.7071068, w: 0}
-  m_LocalPosition: {x: 0, y: 0.0277, z: 0.211}
+  m_LocalPosition: {x: 0, y: 0.0274, z: 0.211}
   m_LocalScale: {x: 1.3512383, y: 1.177227, z: 1.4587789}
   m_Children: []
   m_Father: {fileID: 6477192397871595121}
@@ -4987,9 +5079,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activateActionSetOnAttach:
     actionSetPath: 
-  hideHandOnAttach: 1
+  hideHandOnAttach: 0
   hideSkeletonOnAttach: 0
-  hideControllerOnAttach: 0
+  hideControllerOnAttach: 1
   handAnimationOnPickup: 0
   setRangeOfMotionOnPickup: -1
   useHandObjectAttachmentPoint: 1
@@ -5021,7 +5113,7 @@ MonoBehaviour:
   snapAttachEaseInTime: 0.15
   snapAttachEaseInCompleted: 0
   skeletonPoser: {fileID: 0}
-  handFollowTransform: 1
+  handFollowTransform: 0
   highlightOnHover: 1
   hideHighlight: []
   hoverPriority: 0
@@ -5039,9 +5131,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activateActionSetOnAttach:
     actionSetPath: 
-  hideHandOnAttach: 1
+  hideHandOnAttach: 0
   hideSkeletonOnAttach: 0
-  hideControllerOnAttach: 0
+  hideControllerOnAttach: 1
   handAnimationOnPickup: 0
   setRangeOfMotionOnPickup: -1
   useHandObjectAttachmentPoint: 1
@@ -5073,7 +5165,7 @@ MonoBehaviour:
   snapAttachEaseInTime: 0.15
   snapAttachEaseInCompleted: 0
   skeletonPoser: {fileID: 0}
-  handFollowTransform: 1
+  handFollowTransform: 0
   highlightOnHover: 1
   hideHighlight: []
   hoverPriority: 0
@@ -5094,7 +5186,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 174221c8e3474324f8e3f6da64a197df, type: 2}
+  - {fileID: 2100000, guid: e78c4e7550cb6f34994281accac5399e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5175,7 +5267,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5070061909710878600}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: Sockets
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5349,9 +5441,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activateActionSetOnAttach:
     actionSetPath: 
-  hideHandOnAttach: 1
+  hideHandOnAttach: 0
   hideSkeletonOnAttach: 0
-  hideControllerOnAttach: 0
+  hideControllerOnAttach: 1
   handAnimationOnPickup: 0
   setRangeOfMotionOnPickup: -1
   useHandObjectAttachmentPoint: 1
@@ -5383,7 +5475,7 @@ MonoBehaviour:
   snapAttachEaseInTime: 0.15
   snapAttachEaseInCompleted: 0
   skeletonPoser: {fileID: 0}
-  handFollowTransform: 1
+  handFollowTransform: 0
   highlightOnHover: 1
   hideHighlight: []
   hoverPriority: 0
@@ -5425,7 +5517,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2117505514618614907}
   - component: {fileID: 5436792227018155083}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: Socket
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5446,9 +5538,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activateActionSetOnAttach:
     actionSetPath: 
-  hideHandOnAttach: 1
+  hideHandOnAttach: 0
   hideSkeletonOnAttach: 0
-  hideControllerOnAttach: 0
+  hideControllerOnAttach: 1
   handAnimationOnPickup: 0
   setRangeOfMotionOnPickup: -1
   useHandObjectAttachmentPoint: 1
@@ -5480,7 +5572,7 @@ MonoBehaviour:
   snapAttachEaseInTime: 0.15
   snapAttachEaseInCompleted: 0
   skeletonPoser: {fileID: 0}
-  handFollowTransform: 1
+  handFollowTransform: 0
   highlightOnHover: 1
   hideHighlight: []
   hoverPriority: 0
@@ -5538,7 +5630,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2966131494395301730}
   - component: {fileID: 2966131494395301731}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: Socket-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5853,7 +5945,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2966131494728758311}
   - component: {fileID: 2966131494728758308}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: Socket-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5868,7 +5960,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2966131494728758310}
   m_LocalRotation: {x: 0.5000007, y: 0.49999934, z: 0.49999934, w: 0.5000007}
-  m_LocalPosition: {x: 0.022, y: 0, z: 0.6090433}
+  m_LocalPosition: {x: 0.0272, y: 0, z: 0.6090433}
   m_LocalScale: {x: 1.3512383, y: 1.177227, z: 1.4587789}
   m_Children: []
   m_Father: {fileID: 7299063075616404894}
@@ -5994,7 +6086,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2966131494776987755}
   - component: {fileID: 2966131494776987752}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: Socket
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6025,7 +6117,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2966131494854286905}
   - component: {fileID: 2966131494854287046}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: Socket-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6260,7 +6352,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2966131495032667313}
   - component: {fileID: 2966131495032667326}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: Socket-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6275,7 +6367,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2966131495032667312}
   m_LocalRotation: {x: 0.00000026341777, y: -0.7071068, z: -0.7071068, w: 0.00000026341777}
-  m_LocalPosition: {x: -0.005, y: 0.028, z: 0.625}
+  m_LocalPosition: {x: -0.005, y: 0.0268, z: 0.625}
   m_LocalScale: {x: 1.3512383, y: 1.177227, z: 1.4587789}
   m_Children: []
   m_Father: {fileID: 7299063075616404894}
@@ -6449,7 +6541,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2966131495233896798}
   - component: {fileID: 2966131495233896799}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: Socket-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6526,7 +6618,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2966131495312222808}
   - component: {fileID: 2966131495312222809}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: Socket-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6747,7 +6839,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2966131495774260149}
   - component: {fileID: 2966131495774260146}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: Socket
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6936,7 +7028,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2966131495932435339}
   - component: {fileID: 2966131495932435336}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: Socket
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7077,7 +7169,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2966131496068275133}
   - component: {fileID: 2966131496068275130}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: Socket
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7108,7 +7200,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2966131496090571262}
   - component: {fileID: 2966131496090571263}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: Socket-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7359,7 +7451,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2966131496361037171}
   - component: {fileID: 2966131496361037168}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: Socket-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7435,7 +7527,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2966131496426578109}
   m_LocalRotation: {x: 0.50000006, y: -0.49999994, z: -0.49999994, w: 0.50000006}
-  m_LocalPosition: {x: -0.0258, y: 0.0043, z: 0.5653}
+  m_LocalPosition: {x: -0.02614, y: 0.0043, z: 0.5653}
   m_LocalScale: {x: 1.3512383, y: 1.177227, z: 1.4587789}
   m_Children: []
   m_Father: {fileID: 4880317740416283229}
@@ -7467,7 +7559,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2966131496426578106}
   - component: {fileID: 2966131496426578107}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: Socket-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7654,7 +7746,7 @@ GameObject:
   - component: {fileID: 7158900329771350935}
   - component: {fileID: 4933583936417527384}
   - component: {fileID: 3265225392633983125}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Box009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7695,7 +7787,8 @@ GameObject:
   - component: {fileID: 925362760774769373}
   - component: {fileID: 7727586549743917130}
   - component: {fileID: 3327739704514355957}
-  m_Layer: 0
+  - component: {fileID: 3327739704514355958}
+  m_Layer: 9
   m_Name: Box005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7719,6 +7812,20 @@ MonoBehaviour:
     type: 2}
   materialForHilightingMesh: {fileID: 2100000, guid: 6360709fe84b22948ad4f78bee061df1,
     type: 2}
+--- !u!138 &3327739704514355958
+FixedJoint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3327739704514355956}
+  m_ConnectedBody: {fileID: 5187017520278244838}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_EnableCollision: 0
+  m_EnablePreprocessing: 1
+  m_MassScale: 1
+  m_ConnectedMassScale: 1
 --- !u!1 &3333284658294766126
 GameObject:
   m_ObjectHideFlags: 0
@@ -7736,7 +7843,7 @@ GameObject:
   - component: {fileID: 7192191138688142837}
   - component: {fileID: 2737954417307541624}
   - component: {fileID: 3333284658294766127}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Box018
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7769,7 +7876,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4880317740416283229}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: Sockets
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7833,7 +7940,7 @@ GameObject:
   - component: {fileID: 5881504102172211733}
   - component: {fileID: 2847076092521153430}
   - component: {fileID: 3427793546066767805}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Box022
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7979,7 +8086,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 174221c8e3474324f8e3f6da64a197df, type: 2}
+  - {fileID: 2100000, guid: bb1c7ded96ae06c4b8143a72e12e2a3f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8014,9 +8121,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activateActionSetOnAttach:
     actionSetPath: 
-  hideHandOnAttach: 1
+  hideHandOnAttach: 0
   hideSkeletonOnAttach: 0
-  hideControllerOnAttach: 0
+  hideControllerOnAttach: 1
   handAnimationOnPickup: 0
   setRangeOfMotionOnPickup: -1
   useHandObjectAttachmentPoint: 1
@@ -8048,7 +8155,7 @@ MonoBehaviour:
   snapAttachEaseInTime: 0.15
   snapAttachEaseInCompleted: 0
   skeletonPoser: {fileID: 0}
-  handFollowTransform: 1
+  handFollowTransform: 0
   highlightOnHover: 1
   hideHighlight: []
   hoverPriority: 0
@@ -8113,9 +8220,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activateActionSetOnAttach:
     actionSetPath: 
-  hideHandOnAttach: 1
+  hideHandOnAttach: 0
   hideSkeletonOnAttach: 0
-  hideControllerOnAttach: 0
+  hideControllerOnAttach: 1
   handAnimationOnPickup: 0
   setRangeOfMotionOnPickup: -1
   useHandObjectAttachmentPoint: 1
@@ -8147,7 +8254,7 @@ MonoBehaviour:
   snapAttachEaseInTime: 0.15
   snapAttachEaseInCompleted: 0
   skeletonPoser: {fileID: 0}
-  handFollowTransform: 1
+  handFollowTransform: 0
   highlightOnHover: 1
   hideHighlight: []
   hoverPriority: 0
@@ -8194,9 +8301,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activateActionSetOnAttach:
     actionSetPath: 
-  hideHandOnAttach: 1
+  hideHandOnAttach: 0
   hideSkeletonOnAttach: 0
-  hideControllerOnAttach: 0
+  hideControllerOnAttach: 1
   handAnimationOnPickup: 0
   setRangeOfMotionOnPickup: -1
   useHandObjectAttachmentPoint: 1
@@ -8228,7 +8335,7 @@ MonoBehaviour:
   snapAttachEaseInTime: 0.15
   snapAttachEaseInCompleted: 0
   skeletonPoser: {fileID: 0}
-  handFollowTransform: 1
+  handFollowTransform: 0
   highlightOnHover: 1
   hideHighlight: []
   hoverPriority: 0
@@ -8266,7 +8373,7 @@ GameObject:
   - component: {fileID: 4288876718210555527}
   - component: {fileID: 6290338636272002018}
   - component: {fileID: 3769902512994097064}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Box014
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8411,9 +8518,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activateActionSetOnAttach:
     actionSetPath: 
-  hideHandOnAttach: 1
+  hideHandOnAttach: 0
   hideSkeletonOnAttach: 0
-  hideControllerOnAttach: 0
+  hideControllerOnAttach: 1
   handAnimationOnPickup: 0
   setRangeOfMotionOnPickup: -1
   useHandObjectAttachmentPoint: 1
@@ -8445,7 +8552,7 @@ MonoBehaviour:
   snapAttachEaseInTime: 0.15
   snapAttachEaseInCompleted: 0
   skeletonPoser: {fileID: 0}
-  handFollowTransform: 1
+  handFollowTransform: 0
   highlightOnHover: 1
   hideHighlight: []
   hoverPriority: 0
@@ -8486,7 +8593,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6477192397871595121}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: Sockets
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8517,7 +8624,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6592831123430320790}
   m_LocalRotation: {x: 0.0000015199182, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0, z: 0.6491}
+  m_LocalPosition: {x: 0, y: -0, z: 0.6494}
   m_LocalScale: {x: 1.3512383, y: 1.177227, z: 1.4587789}
   m_Children: []
   m_Father: {fileID: 6477192397871595121}
@@ -8531,7 +8638,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5015907541265084519}
   m_LocalRotation: {x: 0.5, y: -0.5, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: -0.0274, y: -0.0041, z: 0.6317}
+  m_LocalPosition: {x: -0.0273, y: -0.0041, z: 0.6317}
   m_LocalScale: {x: 1.3512383, y: 1.177227, z: 1.4587789}
   m_Children: []
   m_Father: {fileID: 6477192397871595121}
@@ -8564,9 +8671,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activateActionSetOnAttach:
     actionSetPath: 
-  hideHandOnAttach: 1
+  hideHandOnAttach: 0
   hideSkeletonOnAttach: 0
-  hideControllerOnAttach: 0
+  hideControllerOnAttach: 1
   handAnimationOnPickup: 0
   setRangeOfMotionOnPickup: -1
   useHandObjectAttachmentPoint: 1
@@ -8598,7 +8705,7 @@ MonoBehaviour:
   snapAttachEaseInTime: 0.15
   snapAttachEaseInCompleted: 0
   skeletonPoser: {fileID: 0}
-  handFollowTransform: 1
+  handFollowTransform: 0
   highlightOnHover: 1
   hideHighlight: []
   hoverPriority: 0
@@ -8635,7 +8742,7 @@ GameObject:
   - component: {fileID: 5569789481294427038}
   - component: {fileID: 4759000700184377424}
   - component: {fileID: 4212858048052953929}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Box004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8703,7 +8810,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 974583864086222262}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.49751, y: 0.098, z: 2.7865343}
+  m_LocalPosition: {x: 0.705, y: 0.098, z: 2.7865343}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8194331684871741782}
@@ -8725,7 +8832,7 @@ Transform:
   - {fileID: 2021488053965785595}
   - {fileID: 1143461776399456791}
   m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4381951707357685587
 MonoBehaviour:
@@ -8795,9 +8902,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activateActionSetOnAttach:
     actionSetPath: 
-  hideHandOnAttach: 1
+  hideHandOnAttach: 0
   hideSkeletonOnAttach: 0
-  hideControllerOnAttach: 0
+  hideControllerOnAttach: 1
   handAnimationOnPickup: 0
   setRangeOfMotionOnPickup: -1
   useHandObjectAttachmentPoint: 1
@@ -8829,7 +8936,7 @@ MonoBehaviour:
   snapAttachEaseInTime: 0.15
   snapAttachEaseInCompleted: 0
   skeletonPoser: {fileID: 0}
-  handFollowTransform: 1
+  handFollowTransform: 0
   highlightOnHover: 1
   hideHighlight: []
   hoverPriority: 0
@@ -9031,9 +9138,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activateActionSetOnAttach:
     actionSetPath: 
-  hideHandOnAttach: 1
+  hideHandOnAttach: 0
   hideSkeletonOnAttach: 0
-  hideControllerOnAttach: 0
+  hideControllerOnAttach: 1
   handAnimationOnPickup: 0
   setRangeOfMotionOnPickup: -1
   useHandObjectAttachmentPoint: 1
@@ -9065,7 +9172,7 @@ MonoBehaviour:
   snapAttachEaseInTime: 0.15
   snapAttachEaseInCompleted: 0
   skeletonPoser: {fileID: 0}
-  handFollowTransform: 1
+  handFollowTransform: 0
   highlightOnHover: 1
   hideHighlight: []
   hoverPriority: 0
@@ -9079,7 +9186,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4075942590526890868}
   - component: {fileID: 3821451399547954983}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: Socket-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9113,7 +9220,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3992754932217890806}
   - component: {fileID: 947918747553963344}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: Socket-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9186,7 +9293,7 @@ GameObject:
   - component: {fileID: 1849021143677197170}
   - component: {fileID: 7519476444514035715}
   - component: {fileID: 5199783059884453239}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Box006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9245,9 +9352,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activateActionSetOnAttach:
     actionSetPath: 
-  hideHandOnAttach: 1
+  hideHandOnAttach: 0
   hideSkeletonOnAttach: 0
-  hideControllerOnAttach: 0
+  hideControllerOnAttach: 1
   handAnimationOnPickup: 0
   setRangeOfMotionOnPickup: -1
   useHandObjectAttachmentPoint: 1
@@ -9279,7 +9386,7 @@ MonoBehaviour:
   snapAttachEaseInTime: 0.15
   snapAttachEaseInCompleted: 0
   skeletonPoser: {fileID: 0}
-  handFollowTransform: 1
+  handFollowTransform: 0
   highlightOnHover: 1
   hideHighlight: []
   hoverPriority: 0
@@ -9470,7 +9577,7 @@ GameObject:
   - component: {fileID: 2134019884647191005}
   - component: {fileID: 3918069018203499714}
   - component: {fileID: 5678920775341220775}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Box021
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9796,9 +9903,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activateActionSetOnAttach:
     actionSetPath: 
-  hideHandOnAttach: 1
+  hideHandOnAttach: 0
   hideSkeletonOnAttach: 0
-  hideControllerOnAttach: 0
+  hideControllerOnAttach: 1
   handAnimationOnPickup: 0
   setRangeOfMotionOnPickup: -1
   useHandObjectAttachmentPoint: 1
@@ -9830,7 +9937,7 @@ MonoBehaviour:
   snapAttachEaseInTime: 0.15
   snapAttachEaseInCompleted: 0
   skeletonPoser: {fileID: 0}
-  handFollowTransform: 1
+  handFollowTransform: 0
   highlightOnHover: 1
   hideHighlight: []
   hoverPriority: 0
@@ -9844,7 +9951,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4026757635394376796}
   - component: {fileID: 8588894055500625069}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: Socket-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9945,7 +10052,7 @@ GameObject:
   - component: {fileID: 5870768830064192658}
   - component: {fileID: 2964462306434112072}
   - component: {fileID: 6801971850213663589}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Box013
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9983,9 +10090,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activateActionSetOnAttach:
     actionSetPath: 
-  hideHandOnAttach: 1
+  hideHandOnAttach: 0
   hideSkeletonOnAttach: 0
-  hideControllerOnAttach: 0
+  hideControllerOnAttach: 1
   handAnimationOnPickup: 0
   setRangeOfMotionOnPickup: -1
   useHandObjectAttachmentPoint: 1
@@ -10017,7 +10124,7 @@ MonoBehaviour:
   snapAttachEaseInTime: 0.15
   snapAttachEaseInCompleted: 0
   skeletonPoser: {fileID: 0}
-  handFollowTransform: 1
+  handFollowTransform: 0
   highlightOnHover: 1
   hideHighlight: []
   hoverPriority: 0
@@ -10081,7 +10188,18 @@ MonoBehaviour:
   restoreOriginalParent: 0
   onPickUp:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11500000, guid: ffefbea063cab884ca33e5a449e5c22c, type: 3}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls: []
@@ -10188,9 +10306,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activateActionSetOnAttach:
     actionSetPath: 
-  hideHandOnAttach: 1
+  hideHandOnAttach: 0
   hideSkeletonOnAttach: 0
-  hideControllerOnAttach: 0
+  hideControllerOnAttach: 1
   handAnimationOnPickup: 0
   setRangeOfMotionOnPickup: -1
   useHandObjectAttachmentPoint: 1
@@ -10222,7 +10340,7 @@ MonoBehaviour:
   snapAttachEaseInTime: 0.15
   snapAttachEaseInCompleted: 0
   skeletonPoser: {fileID: 0}
-  handFollowTransform: 1
+  handFollowTransform: 0
   highlightOnHover: 1
   hideHighlight: []
   hoverPriority: 0
@@ -10257,7 +10375,7 @@ GameObject:
   - component: {fileID: 7427011983815122914}
   - component: {fileID: 1603075284117444193}
   - component: {fileID: 7263808643785799989}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Box008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10298,7 +10416,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 174221c8e3474324f8e3f6da64a197df, type: 2}
+  - {fileID: 2100000, guid: 8c294922424e8644f89ab494a4583f66, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10395,7 +10513,7 @@ GameObject:
   - component: {fileID: 6879836976401496874}
   - component: {fileID: 7421764492935308725}
   - component: {fileID: 7421764492935308722}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Box011
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10491,7 +10609,7 @@ GameObject:
   - component: {fileID: 4089781760136460458}
   - component: {fileID: 464952757788881148}
   - component: {fileID: 7588819984055787551}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Box020
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10561,9 +10679,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activateActionSetOnAttach:
     actionSetPath: 
-  hideHandOnAttach: 1
+  hideHandOnAttach: 0
   hideSkeletonOnAttach: 0
-  hideControllerOnAttach: 0
+  hideControllerOnAttach: 1
   handAnimationOnPickup: 0
   setRangeOfMotionOnPickup: -1
   useHandObjectAttachmentPoint: 1
@@ -10595,7 +10713,7 @@ MonoBehaviour:
   snapAttachEaseInTime: 0.15
   snapAttachEaseInCompleted: 0
   skeletonPoser: {fileID: 0}
-  handFollowTransform: 1
+  handFollowTransform: 0
   highlightOnHover: 1
   hideHighlight: []
   hoverPriority: 0
@@ -10852,7 +10970,7 @@ GameObject:
   - component: {fileID: 8444353060004085411}
   - component: {fileID: 3544905330382680861}
   - component: {fileID: 8521711255909328951}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Box016
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10976,9 +11094,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activateActionSetOnAttach:
     actionSetPath: 
-  hideHandOnAttach: 1
+  hideHandOnAttach: 0
   hideSkeletonOnAttach: 0
-  hideControllerOnAttach: 0
+  hideControllerOnAttach: 1
   handAnimationOnPickup: 0
   setRangeOfMotionOnPickup: -1
   useHandObjectAttachmentPoint: 1
@@ -11010,7 +11128,7 @@ MonoBehaviour:
   snapAttachEaseInTime: 0.15
   snapAttachEaseInCompleted: 0
   skeletonPoser: {fileID: 0}
-  handFollowTransform: 1
+  handFollowTransform: 0
   highlightOnHover: 1
   hideHighlight: []
   hoverPriority: 0
@@ -11063,7 +11181,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7299063075616404894}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: Sockets
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11092,9 +11210,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activateActionSetOnAttach:
     actionSetPath: 
-  hideHandOnAttach: 1
+  hideHandOnAttach: 0
   hideSkeletonOnAttach: 0
-  hideControllerOnAttach: 0
+  hideControllerOnAttach: 1
   handAnimationOnPickup: 0
   setRangeOfMotionOnPickup: -1
   useHandObjectAttachmentPoint: 1
@@ -11126,7 +11244,7 @@ MonoBehaviour:
   snapAttachEaseInTime: 0.15
   snapAttachEaseInCompleted: 0
   skeletonPoser: {fileID: 0}
-  handFollowTransform: 1
+  handFollowTransform: 0
   highlightOnHover: 1
   hideHighlight: []
   hoverPriority: 0
@@ -11147,7 +11265,7 @@ GameObject:
   - component: {fileID: 5215159800349066151}
   - component: {fileID: 5147881671808988859}
   - component: {fileID: 9136609483315142655}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Box019
   m_TagString: Untagged
   m_Icon: {fileID: 0}
