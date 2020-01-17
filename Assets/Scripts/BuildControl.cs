@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
+//using UnityEngine.Events;
 
 using SnapAndPlug;
 
@@ -24,9 +24,9 @@ public class BuildControl : MonoBehaviour {
     //public bool unGroupOnDrag;
 
     public AudioSource attachSound;
-    public UnityEvent OnAttachPlaySound;
+    //public UnityEvent OnAttachPlaySound;
 
-    public void playAttachSound() {
+    void playAttachSound() {
         //attachSound = GetComponent<AudioSource>();
         attachSound.Play(0);
         Debug.Log("Attach audio played.");
