@@ -11,6 +11,8 @@ using UnityEngine.EventSystems;
 public class InGameSnappableNejSatan : MonoBehaviour, IDragActionSource
 {
 
+
+
 	public DragDropAction3D currentDrag;
 	public bool draggingRemovesFromGroup = false;
 
@@ -53,6 +55,12 @@ public class InGameSnappableNejSatan : MonoBehaviour, IDragActionSource
 		}
 	}
 
+    // For VR environment...
+    public void OnMouseDownVR() {
+        ClickStarted();
+    }
+
+
 	/** we use this instead of copy/pasting into OnMouseDown so that subclasses can override this
 	 *  - rather than overriding OnMouseDown, which has low-level significance, and MIGHT get replaced
 	 * in future (since Unity's implementation of OnMouseDown is a bit weird and likely to change)
@@ -77,6 +85,17 @@ public class InGameSnappableNejSatan : MonoBehaviour, IDragActionSource
 
 		_RemoveHilightMesh (); // MouseUp may happen when you're NOT over the object, because of snapping, so need to pre-emptively de-hilight here
 	}
+
+    // For VR environment...
+    public void OnMouseUpVR() {
+        if (currentDrag != null) {
+            currentDrag.TriggerDrop();
+        }
+
+        currentDrag = null;
+
+        _RemoveHilightMesh(); // MouseUp may happen when you're NOT over the object, because of snapping, so need to pre-emptively de-hilight here
+    }
 
 	#region Showing a hilight mesh when the mouse is over it
 

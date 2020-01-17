@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4916396167862549060}
   - component: {fileID: 654008754173462816}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Socket-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56,7 +56,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 71497310704415281}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Sockets
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,8 +95,10 @@ GameObject:
   - component: {fileID: 684897681680915077}
   - component: {fileID: 4355572634471336793}
   - component: {fileID: 8603103259241410766}
-  - component: {fileID: 7573253115814317740}
-  m_Layer: 0
+  - component: {fileID: 2078450693}
+  - component: {fileID: 894464310}
+  - component: {fileID: 3978986920991675608}
+  m_Layer: 9
   m_Name: Pole
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -259,11 +261,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attachmentFlags: 84
-  attachmentOffset: {fileID: 0}
+  attachmentOffset: {fileID: 3236529738315330951}
   catchingSpeedThreshold: -1
-  releaseVelocityStyle: 1
+  releaseVelocityStyle: 0
   releaseVelocityTimeOffset: -0.011
-  scaleReleaseVelocity: 1.1
+  scaleReleaseVelocity: 0.01
   scaleReleaseVelocityThreshold: -1
   scaleReleaseVelocityCurve:
     serializedVersion: 2
@@ -292,10 +294,32 @@ MonoBehaviour:
   restoreOriginalParent: 0
   onPickUp:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3978986920991675608}
+        m_MethodName: OnMouseDownVR
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onDetachFromHand:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3978986920991675608}
+        m_MethodName: OnMouseUpVR
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onHeldUpdate:
     m_PersistentCalls:
       m_Calls: []
@@ -314,7 +338,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   editor_ScaleSockets: 0.1
   editor_showBackfacingSockets: 1
---- !u!114 &7573253115814317740
+--- !u!114 &2078450693
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -323,14 +347,42 @@ MonoBehaviour:
   m_GameObject: {fileID: 7270917441288844950}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2aa607ba36695fd4d81c9a2454d4001b, type: 3}
+  m_Script: {fileID: 11500000, guid: f7e08dc84fb1fff4e8af6a35e75e9a09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnPartAttach:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &894464310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7270917441288844950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7e08dc84fb1fff4e8af6a35e75e9a09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnPartAttach:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &3978986920991675608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7270917441288844950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fb01706656c9d444887309411a4ce9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   draggingRemovesFromGroup: 0
-  materialForPreviewGhosts: {fileID: 2100000, guid: e8824cfb3bb3410438c5042344b7d92c,
-    type: 2}
-  materialForHilightingMesh: {fileID: 2100000, guid: 6360709fe84b22948ad4f78bee061df1,
-    type: 2}
+  materialForPreviewGhosts: {fileID: 0}
+  materialForHilightingMesh: {fileID: 0}
 --- !u!1 &7995080789299233171
 GameObject:
   m_ObjectHideFlags: 0
@@ -341,7 +393,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5487223875931653509}
   - component: {fileID: 2924307503577956662}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Socket
   m_TagString: Untagged
   m_Icon: {fileID: 0}
