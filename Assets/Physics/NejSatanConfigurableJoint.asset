@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1635628110, guid: 9dfd8e3666f1d4059a3203c26f4d826c, type: 3}
+  m_Name: NejSatanConfigurableJoint
+  m_EditorClassIdentifier: 
+  defaultSecondaryAxis: {x: 0, y: 0, z: 0}
+  defaultXMotion: 0
+  defaultYMotion: 0
+  defaultZMotion: 0
+  defaultAngularXMotion: 0
+  defaultAngularYMotion: 0
+  defaultAngularZMotion: 0
+  defaultLinearLimitSpring:
+    spring: 0
+    damper: 0
+  defaultLinearLimit:
+    limit: 0
+    bounciness: 0
+    contactDistance: 0
+  defaultAngularXLimitSpring:
+    spring: 0
+    damper: 0
+  defaultLowAngularXLimit:
+    limit: 0
+    bounciness: 0
+    contactDistance: 0
+  defaultHighAngularXLimit:
+    limit: 0
+    bounciness: 0
+    contactDistance: 0
+  defaultAngularYZLimitSpring:
+    spring: 0
+    damper: 0
+  defaultAngularYLimit:
+    limit: 0
+    bounciness: 0
+    contactDistance: 0
+  defaultAngularZLimit:
+    limit: 0
+    bounciness: 0
+    contactDistance: 0
+  defaultTargetPosition: {x: 0, y: 0, z: 0}
+  defaultTargetVelocity: {x: 0, y: 0, z: 0}
+  defaultXDrive:
+    positionSpring: 0
+    positionDamper: 0
+    maximumForce: 0
+  defaultYDrive:
+    positionSpring: 0
+    positionDamper: 0
+    maximumForce: 0
+  defaultZDrive:
+    positionSpring: 0
+    positionDamper: 0
+    maximumForce: 0
+  defaultTargetRotation: {x: 0, y: 0, z: 0, w: 0}
+  defaultTargetAngularVelocity: {x: 0, y: 0, z: 0}
+  defaultRotationDriveMode: 0
+  defaultAngularXDrive:
+    positionSpring: 0
+    positionDamper: 0
+    maximumForce: 0
+  defaultAngularYZDrive:
+    positionSpring: 0
+    positionDamper: 0
+    maximumForce: 0
+  defaultSlerpDrive:
+    positionSpring: 0
+    positionDamper: 0
+    maximumForce: 0
+  defaultProjectionMode: 0
+  defaultProjectionDistance: 0
+  defaultProjectionAngle: 0
+  defaultConfiguredInWorldSpace: 0
+  defaultSwapBodies: 0

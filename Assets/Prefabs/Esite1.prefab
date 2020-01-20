@@ -30,7 +30,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6032473719041283562}
-  m_LocalRotation: {x: -0, y: -0.43534693, z: -0, w: 0.9002628}
+  m_LocalRotation: {x: 0, y: -0.4353489, z: 0, w: 0.9002618}
   m_LocalPosition: {x: -0.64, y: 2.97, z: 1.73}
   m_LocalScale: {x: 0.02, y: 1, z: 0.7}
   m_Children: []
@@ -62,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f527f6bcb307dfc4c8a62a1d1d1e1227, type: 2}
+  - {fileID: 2100000, guid: c6271184d92da3e4c8591758b8e251c3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
