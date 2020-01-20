@@ -12,15 +12,14 @@ public class InGameSnappableNejSatan : MonoBehaviour, IDragActionSource
 {
 
 
-
-	public DragDropAction3D currentDrag;
+    public DragDropAction3D currentDrag;
 	public bool draggingRemovesFromGroup = false;
 
 	public virtual DragDropAction3D CreateNewDragAction()
 	{
 		//e.g. 3D world snap: return new DragDropBlockAction3D( materialForPreviewGhosts, DragDropSnapMode.METERS_3D, 1f );
 		//e.g. 2D screen snap: return new DragDropBlockAction3D( materialForPreviewGhosts, DragDropSnapMode.PIXELS_2D, 15f );
-		return new DragDropAction3DWithGhost( materialForPreviewGhosts, DragDropSnapMode.METERS_3D, 0.1f, draggingRemovesFromGroup );
+		return new DragDropAction3DWithGhost( materialForPreviewGhosts, DragDropSnapMode.METERS_3D, 0.5f, draggingRemovesFromGroup );
 	}
 
 	public Material materialForPreviewGhosts;
@@ -36,15 +35,16 @@ public class InGameSnappableNejSatan : MonoBehaviour, IDragActionSource
 	
 	public virtual void DropCompletedOrCancelled()
 	{
-        Debug.Log("::: DropCompletedOrCancelled :::");
+        Debug.Log("::: DropCompletedOrCancelled :::" + this.name);
 
     }
 
     public virtual void SnappedOntoButNotDroppedYet( SnapSocket localSocket, SnapPiece pieceSnappedOnto, SnapSocket socketSnappedOnto )
 	{
-        Debug.Log("::: SnappedOntoButNotDroppedYet :::");
+        Debug.Log("::: SnappedOntoButNotDroppedYet :::" + this.name);
 	}
 
+    /*
 	public void OnMouseDown ()
 	{
 		if( EventSystem.current != null && EventSystem.current.IsPointerOverGameObject() ) // NB: this will BREAK if you ever add a PhysicsCaster to your Camera; Unity 5's Events are tricky
@@ -54,6 +54,8 @@ public class InGameSnappableNejSatan : MonoBehaviour, IDragActionSource
 			ClickStarted();
 		}
 	}
+    */
+
 
     // For VR environment...
     public void OnMouseDownVR() {
@@ -67,6 +69,8 @@ public class InGameSnappableNejSatan : MonoBehaviour, IDragActionSource
 	 */
 	public virtual void ClickStarted()
 	{
+        Debug.Log("::: ClickStarted :::" + this.name);
+
 			currentDrag = CreateNewDragAction();
 
 			currentDrag.StartDrag( this.gameObject, this );
@@ -76,7 +80,8 @@ public class InGameSnappableNejSatan : MonoBehaviour, IDragActionSource
 
 	public void OnMouseUp ()
 	{
-		if( currentDrag != null )
+        Debug.Log("::: OnMouseUp :::" + this.name);
+        if ( currentDrag != null )
 		{
 			currentDrag.TriggerDrop();
 		}
@@ -88,6 +93,7 @@ public class InGameSnappableNejSatan : MonoBehaviour, IDragActionSource
 
     // For VR environment...
     public void OnMouseUpVR() {
+        Debug.Log("::: OnMouseUpVR :::" + this.name);
         if (currentDrag != null) {
             currentDrag.TriggerDrop();
         }
@@ -104,7 +110,8 @@ public class InGameSnappableNejSatan : MonoBehaviour, IDragActionSource
 
 	public void OnMouseEnter ()
 	{
-		if (currentDrag == null
+        Debug.Log("::: OnMouseEnter :::" + this.name);
+        if (currentDrag == null
 		    || !currentDrag._isBeingDragged)
 			_AddHilightMesh ();
 	}
@@ -116,7 +123,9 @@ public class InGameSnappableNejSatan : MonoBehaviour, IDragActionSource
 	 */
 	public void OnMouseOver ()
 	{
-		if (currentDrag != null
+        Debug.Log("::: OnMouseOver :::" + this.name);
+        Debug.Log("::: Current Drag = " + currentDrag);
+        if (currentDrag != null
 		    && !currentDrag._isBeingDragged
 		    && _mouseOverMesh == null)
 			_AddHilightMesh ();
@@ -124,7 +133,8 @@ public class InGameSnappableNejSatan : MonoBehaviour, IDragActionSource
 
 	public void OnMouseExit ()
 	{
-		_RemoveHilightMesh ();
+        Debug.Log("::: OnMouseExit :::" + this.name);
+        _RemoveHilightMesh();
 	}
 
 	private void _RemoveHilightMesh ()
