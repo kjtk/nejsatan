@@ -10,7 +10,12 @@ using UnityEngine.EventSystems;
 
 public class InGameSnappableNejSatan : MonoBehaviour, IDragActionSource
 {
+    public AudioSource attachSound;
 
+    public void PlayAttachSound() {
+        attachSound.Play(0);
+        Debug.Log("Attach audio played.");
+    }
 
     public DragDropAction3D currentDrag;
 	public bool draggingRemovesFromGroup = false;
@@ -19,7 +24,7 @@ public class InGameSnappableNejSatan : MonoBehaviour, IDragActionSource
 	{
 		//e.g. 3D world snap: return new DragDropBlockAction3D( materialForPreviewGhosts, DragDropSnapMode.METERS_3D, 1f );
 		//e.g. 2D screen snap: return new DragDropBlockAction3D( materialForPreviewGhosts, DragDropSnapMode.PIXELS_2D, 15f );
-		return new DragDropAction3DWithGhost( materialForPreviewGhosts, DragDropSnapMode.METERS_3D, 0.5f, draggingRemovesFromGroup );
+		return new DragDropAction3DWithGhost( materialForPreviewGhosts, DragDropSnapMode.METERS_3D, 0.1f, draggingRemovesFromGroup );
 	}
 
 	public Material materialForPreviewGhosts;
@@ -30,6 +35,7 @@ public class InGameSnappableNejSatan : MonoBehaviour, IDragActionSource
 		if (currentDrag != null)
 		{
 			currentDrag.UpdateDrag ();
+            Debug.Log("::: UpdateDrag :::");
 		}
 	}
 	
@@ -42,7 +48,9 @@ public class InGameSnappableNejSatan : MonoBehaviour, IDragActionSource
     public virtual void SnappedOntoButNotDroppedYet( SnapSocket localSocket, SnapPiece pieceSnappedOnto, SnapSocket socketSnappedOnto )
 	{
         Debug.Log("::: SnappedOntoButNotDroppedYet :::" + this.name);
-	}
+
+
+    }
 
     /*
 	public void OnMouseDown ()
@@ -84,9 +92,12 @@ public class InGameSnappableNejSatan : MonoBehaviour, IDragActionSource
         if ( currentDrag != null )
 		{
 			currentDrag.TriggerDrop();
-		}
 
-		currentDrag = null;
+            Invoke("PlayAttachSound", 0);
+
+        }
+
+        currentDrag = null;
 
 		_RemoveHilightMesh (); // MouseUp may happen when you're NOT over the object, because of snapping, so need to pre-emptively de-hilight here
 	}
