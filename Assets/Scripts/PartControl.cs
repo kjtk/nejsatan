@@ -10,7 +10,7 @@ public class PartControl : MonoBehaviour {
 
     public AudioSource attachSound;
 
-    public void playAttachSound() {
+    public void PlayAttachSound() {
         attachSound.Play(0);
         Debug.Log("Attach audio played.");
     }

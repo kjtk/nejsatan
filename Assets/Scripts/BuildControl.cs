@@ -29,7 +29,7 @@ public class BuildControl : MonoBehaviour {
     public AudioSource attachSound;
     //public UnityEvent OnAttachPlaySound;
 
-    public void playAttachSound() {
+    public void PlayAttachSound() {
         //attachSound = GetComponent<AudioSource>();
         attachSound.Play(0);
         Debug.Log("Attach audio played.");
