@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-//using UnityEngine.Events;
+using UnityEngine.Events;
 
 using SnapAndPlug;
 
@@ -23,10 +23,13 @@ public class BuildControl : MonoBehaviour {
     //public float maxSnapDist;
     //public bool unGroupOnDrag;
 
+    [Header("Do something on attach.")]
+    public UnityEvent OnPartAttach;
+
     public AudioSource attachSound;
     //public UnityEvent OnAttachPlaySound;
 
-    void playAttachSound() {
+    public void playAttachSound() {
         //attachSound = GetComponent<AudioSource>();
         attachSound.Play(0);
         Debug.Log("Attach audio played.");
