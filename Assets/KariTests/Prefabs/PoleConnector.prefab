@@ -142,9 +142,9 @@ GameObject:
   - component: {fileID: 4257392662553339270}
   - component: {fileID: 1425766510379866409}
   - component: {fileID: 6823974909474687939}
-  - component: {fileID: 1357651564}
   - component: {fileID: 1357651563}
   - component: {fileID: 4373709292415683587}
+  - component: {fileID: 745987756}
   m_Layer: 9
   m_Name: PoleConnector
   m_TagString: Untagged
@@ -243,7 +243,7 @@ MonoBehaviour:
     actionSetPath: 
   hideHandOnAttach: 1
   hideSkeletonOnAttach: 0
-  hideControllerOnAttach: 0
+  hideControllerOnAttach: 1
   handAnimationOnPickup: 0
   setRangeOfMotionOnPickup: -1
   useHandObjectAttachmentPoint: 1
@@ -343,7 +343,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 4373709292415683587}
-        m_MethodName: OnMouseDownVR
+        m_MethodName: ClickStarted
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -357,7 +357,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 4373709292415683587}
-        m_MethodName: OnMouseUpVR
+        m_MethodName: OnMouseUp
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -370,12 +370,12 @@ MonoBehaviour:
   onHeldUpdate:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4581918046519495175}
+      - m_Target: {fileID: 4373709292415683587}
         m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -396,7 +396,41 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   editor_ScaleSockets: 0.1
   editor_showBackfacingSockets: 1
---- !u!82 &1357651564
+--- !u!114 &1357651563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4581918046519495175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7e08dc84fb1fff4e8af6a35e75e9a09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnPartAttach:
+    m_PersistentCalls:
+      m_Calls: []
+  attachSound: {fileID: 745987756}
+--- !u!114 &4373709292415683587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4581918046519495175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fb01706656c9d444887309411a4ce9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attachSound: {fileID: 745987756}
+  draggingRemovesFromGroup: 0
+  materialForPreviewGhosts: {fileID: 2100000, guid: e8824cfb3bb3410438c5042344b7d92c,
+    type: 2}
+  materialForHilightingMesh: {fileID: 2100000, guid: 6360709fe84b22948ad4f78bee061df1,
+    type: 2}
+--- !u!82 &745987756
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -406,8 +440,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 72e1602396552bd4c839f9272a11b779, type: 3}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: 607a93c2ec8d95b4faea86d10b58b891, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -492,36 +526,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1357651563
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4581918046519495175}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7e08dc84fb1fff4e8af6a35e75e9a09, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  OnPartAttach:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &4373709292415683587
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4581918046519495175}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fb01706656c9d444887309411a4ce9d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  draggingRemovesFromGroup: 0
-  materialForPreviewGhosts: {fileID: 0}
-  materialForHilightingMesh: {fileID: 0}
 --- !u!1001 &1862532305973746939
 PrefabInstance:
   m_ObjectHideFlags: 0
