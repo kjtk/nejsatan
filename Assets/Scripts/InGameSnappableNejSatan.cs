@@ -6,6 +6,8 @@ using System.Linq;
 using SnapAndPlug;
 using UnityEngine.EventSystems;
 
+using Valve.VR.InteractionSystem;
+
 #pragma warning disable 0642 // This warning is almost always wrong (and is wrong in every time it appears in this class)
 
 public class InGameSnappableNejSatan : MonoBehaviour, IDragActionSource
@@ -16,6 +18,9 @@ public class InGameSnappableNejSatan : MonoBehaviour, IDragActionSource
         attachSound.Play(0);
         Debug.Log("Attach audio played.");
     }
+
+    // SteamVR
+    Hand hand;
 
     public DragDropAction3D currentDrag;
 	public bool draggingRemovesFromGroup = false;
@@ -35,7 +40,7 @@ public class InGameSnappableNejSatan : MonoBehaviour, IDragActionSource
 		if (currentDrag != null)
 		{
 			currentDrag.UpdateDrag ();
-            Debug.Log("::: UpdateDrag :::");
+            //Debug.Log("::: UpdateDrag :::");
 		}
 	}
 	
@@ -78,14 +83,19 @@ public class InGameSnappableNejSatan : MonoBehaviour, IDragActionSource
 	public virtual void ClickStarted()
 	{
         Debug.Log("::: ClickStarted :::" + this.name);
+        
+        // SteamVR
+        hand = GetComponentInParent<Hand>();
+        Debug.Log("::: SteamVR Hand = " + hand.name + " :::");
 
-			currentDrag = CreateNewDragAction();
+        currentDrag = CreateNewDragAction();
 
-			currentDrag.StartDrag( this.gameObject, this );
+		currentDrag.StartDrag( this.gameObject, this );
 
-			_RemoveHilightMesh ();
+		_RemoveHilightMesh ();
 	}
 
+    /*
 	public void OnMouseUp ()
 	{
         Debug.Log("::: OnMouseUp :::" + this.name);
@@ -101,12 +111,17 @@ public class InGameSnappableNejSatan : MonoBehaviour, IDragActionSource
 
 		_RemoveHilightMesh (); // MouseUp may happen when you're NOT over the object, because of snapping, so need to pre-emptively de-hilight here
 	}
+    */
+
 
     // For VR environment...
-    public void OnMouseUpVR() {
-        Debug.Log("::: OnMouseUpVR :::" + this.name);
+    private void OnParentHandHoverEnd(Interactable other) {
+        Debug.Log("::: OnParentHandHoverEnd :::" + this.name);
         if (currentDrag != null) {
             currentDrag.TriggerDrop();
+
+            Invoke("PlayAttachSound", 0);
+
         }
 
         currentDrag = null;
@@ -114,18 +129,29 @@ public class InGameSnappableNejSatan : MonoBehaviour, IDragActionSource
         _RemoveHilightMesh(); // MouseUp may happen when you're NOT over the object, because of snapping, so need to pre-emptively de-hilight here
     }
 
-	#region Showing a hilight mesh when the mouse is over it
+    #region Showing a hilight mesh when the mouse is over it
 
-	private GameObject _mouseOverMesh;
+    private GameObject _mouseOverMesh;
 	private IntelligentMeshFactory _localMeshGenerator = new IntelligentMeshFactory ();
 
-	public void OnMouseEnter ()
+
+    // For VR environment...
+    void OnParentHandHoverBegin(Interactable other) {
+        Debug.Log("::: OnParentHandHoverBegin :::" + this.name);
+        if (currentDrag == null
+                 || !currentDrag._isBeingDragged)
+            _AddHilightMesh();
+    }
+    /*
+    public void OnMouseEnter ()
 	{
         Debug.Log("::: OnMouseEnter :::" + this.name);
         if (currentDrag == null
 		    || !currentDrag._isBeingDragged)
 			_AddHilightMesh ();
 	}
+    */
+
 
 	/**
 	 * Required because this class needs to check mouse position in the constructor, but Unity doesn't allow that.
@@ -142,11 +168,15 @@ public class InGameSnappableNejSatan : MonoBehaviour, IDragActionSource
 			_AddHilightMesh ();
 	}
 
-	public void OnMouseExit ()
+
+    /*
+    public void OnMouseExit ()
 	{
         Debug.Log("::: OnMouseExit :::" + this.name);
         _RemoveHilightMesh();
 	}
+    */
+
 
 	private void _RemoveHilightMesh ()
 	{
