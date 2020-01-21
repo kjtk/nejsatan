@@ -6,7 +6,7 @@ using System.Linq;
 using SnapAndPlug;
 using UnityEngine.EventSystems;
 
-using Valve.VR.InteractionSystem;
+//using Valve.VR.InteractionSystem;
 
 #pragma warning disable 0642 // This warning is almost always wrong (and is wrong in every time it appears in this class)
 
@@ -20,7 +20,7 @@ public class InGameSnappableNejSatan : MonoBehaviour, IDragActionSource
     }
 
     // SteamVR
-    Hand hand;
+    //Hand hand;
 
     public DragDropAction3D currentDrag;
 	public bool draggingRemovesFromGroup = false;
@@ -29,7 +29,7 @@ public class InGameSnappableNejSatan : MonoBehaviour, IDragActionSource
 	{
 		//e.g. 3D world snap: return new DragDropBlockAction3D( materialForPreviewGhosts, DragDropSnapMode.METERS_3D, 1f );
 		//e.g. 2D screen snap: return new DragDropBlockAction3D( materialForPreviewGhosts, DragDropSnapMode.PIXELS_2D, 15f );
-		return new DragDropAction3DWithGhost( materialForPreviewGhosts, DragDropSnapMode.METERS_3D, 0.1f, draggingRemovesFromGroup );
+		return new DragDropAction3DWithGhost( materialForPreviewGhosts, DragDropSnapMode.METERS_3D, 0.5f, draggingRemovesFromGroup );
 	}
 
 	public Material materialForPreviewGhosts;
@@ -57,7 +57,7 @@ public class InGameSnappableNejSatan : MonoBehaviour, IDragActionSource
 
     }
 
-    /*
+    
 	public void OnMouseDown ()
 	{
 		if( EventSystem.current != null && EventSystem.current.IsPointerOverGameObject() ) // NB: this will BREAK if you ever add a PhysicsCaster to your Camera; Unity 5's Events are tricky
@@ -67,7 +67,7 @@ public class InGameSnappableNejSatan : MonoBehaviour, IDragActionSource
 			ClickStarted();
 		}
 	}
-    */
+    
 
 
     // For VR environment...
@@ -85,8 +85,8 @@ public class InGameSnappableNejSatan : MonoBehaviour, IDragActionSource
         Debug.Log("::: ClickStarted :::" + this.name);
         
         // SteamVR
-        hand = GetComponentInParent<Hand>();
-        Debug.Log("::: SteamVR Hand = " + hand.name + " :::");
+        //hand = GetComponentInParent<Hand>();
+        //Debug.Log("::: SteamVR Hand = " + hand.name + " :::");
 
         currentDrag = CreateNewDragAction();
 
@@ -95,7 +95,7 @@ public class InGameSnappableNejSatan : MonoBehaviour, IDragActionSource
 		_RemoveHilightMesh ();
 	}
 
-    /*
+    
 	public void OnMouseUp ()
 	{
         Debug.Log("::: OnMouseUp :::" + this.name);
@@ -111,9 +111,10 @@ public class InGameSnappableNejSatan : MonoBehaviour, IDragActionSource
 
 		_RemoveHilightMesh (); // MouseUp may happen when you're NOT over the object, because of snapping, so need to pre-emptively de-hilight here
 	}
-    */
+    
 
 
+    /*
     // For VR environment...
     private void OnParentHandHoverEnd(Interactable other) {
         Debug.Log("::: OnParentHandHoverEnd :::" + this.name);
@@ -128,6 +129,7 @@ public class InGameSnappableNejSatan : MonoBehaviour, IDragActionSource
 
         _RemoveHilightMesh(); // MouseUp may happen when you're NOT over the object, because of snapping, so need to pre-emptively de-hilight here
     }
+    */
 
     #region Showing a hilight mesh when the mouse is over it
 
@@ -135,6 +137,7 @@ public class InGameSnappableNejSatan : MonoBehaviour, IDragActionSource
 	private IntelligentMeshFactory _localMeshGenerator = new IntelligentMeshFactory ();
 
 
+    /*
     // For VR environment...
     void OnParentHandHoverBegin(Interactable other) {
         Debug.Log("::: OnParentHandHoverBegin :::" + this.name);
@@ -142,7 +145,9 @@ public class InGameSnappableNejSatan : MonoBehaviour, IDragActionSource
                  || !currentDrag._isBeingDragged)
             _AddHilightMesh();
     }
-    /*
+    */
+
+    
     public void OnMouseEnter ()
 	{
         Debug.Log("::: OnMouseEnter :::" + this.name);
@@ -150,7 +155,7 @@ public class InGameSnappableNejSatan : MonoBehaviour, IDragActionSource
 		    || !currentDrag._isBeingDragged)
 			_AddHilightMesh ();
 	}
-    */
+    
 
 
 	/**
@@ -161,7 +166,6 @@ public class InGameSnappableNejSatan : MonoBehaviour, IDragActionSource
 	public void OnMouseOver ()
 	{
         Debug.Log("::: OnMouseOver :::" + this.name);
-        Debug.Log("::: Current Drag = " + currentDrag);
         if (currentDrag != null
 		    && !currentDrag._isBeingDragged
 		    && _mouseOverMesh == null)
@@ -169,13 +173,13 @@ public class InGameSnappableNejSatan : MonoBehaviour, IDragActionSource
 	}
 
 
-    /*
+    
     public void OnMouseExit ()
 	{
         Debug.Log("::: OnMouseExit :::" + this.name);
         _RemoveHilightMesh();
 	}
-    */
+    
 
 
 	private void _RemoveHilightMesh ()
