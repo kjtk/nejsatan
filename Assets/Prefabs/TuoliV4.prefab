@@ -365,7 +365,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 960064874595263397}
-        m_MethodName: ClickStarted
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -378,8 +378,8 @@ MonoBehaviour:
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 960064874595263397}
-        m_MethodName: OnMouseExit
+      - m_Target: {fileID: 3676574996052066773}
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -736,7 +736,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1009798954984317311}
-        m_MethodName: ClickStarted
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -749,8 +749,8 @@ MonoBehaviour:
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1009798954984317311}
-        m_MethodName: OnMouseExit
+      - m_Target: {fileID: 3676574996052066773}
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1170,7 +1170,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1183141759948661940}
-        m_MethodName: ClickStarted
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1183,8 +1183,8 @@ MonoBehaviour:
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1183141759948661940}
-        m_MethodName: OnMouseExit
+      - m_Target: {fileID: 3676574996052066773}
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1541,7 +1541,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1521847625325406653}
-        m_MethodName: ClickStarted
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1554,8 +1554,8 @@ MonoBehaviour:
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1521847625325406653}
-        m_MethodName: OnMouseExit
+      - m_Target: {fileID: 3676574996052066773}
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4141,7 +4141,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2603833036602307081}
-        m_MethodName: ClickStarted
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4154,8 +4154,8 @@ MonoBehaviour:
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2603833036602307081}
-        m_MethodName: OnMouseExit
+      - m_Target: {fileID: 3676574996052066773}
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4512,7 +4512,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2802150985508351265}
-        m_MethodName: ClickStarted
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4525,8 +4525,8 @@ MonoBehaviour:
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2802150985508351265}
-        m_MethodName: OnMouseExit
+      - m_Target: {fileID: 3676574996052066773}
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4883,7 +4883,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2824022860513212595}
-        m_MethodName: ClickStarted
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4896,8 +4896,8 @@ MonoBehaviour:
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2824022860513212595}
-        m_MethodName: OnMouseExit
+      - m_Target: {fileID: 3676574996052066773}
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5255,7 +5255,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2836217497128624233}
-        m_MethodName: ClickStarted
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5268,8 +5268,8 @@ MonoBehaviour:
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2836217497128624233}
-        m_MethodName: OnMouseExit
+      - m_Target: {fileID: 3676574996052066773}
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5739,7 +5739,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 3676574996052066773}
-        m_MethodName: ClickStarted
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5753,7 +5753,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 3676574996052066773}
-        m_MethodName: OnMouseExit
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6185,7 +6185,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 4405548705135875380}
-        m_MethodName: ClickStarted
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6198,8 +6198,8 @@ MonoBehaviour:
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4405548705135875380}
-        m_MethodName: OnMouseExit
+      - m_Target: {fileID: 3676574996052066773}
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6590,7 +6590,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 4709518692727287787}
-        m_MethodName: ClickStarted
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6603,8 +6603,8 @@ MonoBehaviour:
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4709518692727287787}
-        m_MethodName: OnMouseExit
+      - m_Target: {fileID: 3676574996052066773}
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6961,7 +6961,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 5169377228242247995}
-        m_MethodName: ClickStarted
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6974,8 +6974,8 @@ MonoBehaviour:
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5169377228242247995}
-        m_MethodName: OnMouseExit
+      - m_Target: {fileID: 3676574996052066773}
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7505,7 +7505,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 6275678344065507833}
-        m_MethodName: ClickStarted
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7518,8 +7518,8 @@ MonoBehaviour:
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6275678344065507833}
-        m_MethodName: OnMouseExit
+      - m_Target: {fileID: 3676574996052066773}
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7940,7 +7940,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 6927137630774895235}
-        m_MethodName: ClickStarted
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7953,8 +7953,8 @@ MonoBehaviour:
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6927137630774895235}
-        m_MethodName: OnMouseExit
+      - m_Target: {fileID: 3676574996052066773}
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8343,7 +8343,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 7907474398478629801}
-        m_MethodName: ClickStarted
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8356,8 +8356,8 @@ MonoBehaviour:
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7907474398478629801}
-        m_MethodName: OnMouseExit
+      - m_Target: {fileID: 3676574996052066773}
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8715,7 +8715,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 8038259115746125614}
-        m_MethodName: ClickStarted
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8728,8 +8728,8 @@ MonoBehaviour:
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8038259115746125614}
-        m_MethodName: OnMouseExit
+      - m_Target: {fileID: 3676574996052066773}
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9134,7 +9134,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 8626931521470930275}
-        m_MethodName: ClickStarted
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9147,8 +9147,8 @@ MonoBehaviour:
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8626931521470930275}
-        m_MethodName: OnMouseExit
+      - m_Target: {fileID: 3676574996052066773}
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9540,7 +9540,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 9165377559603423915}
-        m_MethodName: ClickStarted
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9553,8 +9553,8 @@ MonoBehaviour:
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 9165377559603423915}
-        m_MethodName: OnMouseExit
+      - m_Target: {fileID: 3676574996052066773}
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
